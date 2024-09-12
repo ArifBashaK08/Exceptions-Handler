@@ -1,0 +1,6 @@
+export {default as Intro} from "./Intro"
+export {default as ServiceAndFeatureDetails} from "./ServiceAndFeatureDetails"
+export {default as CloudAndDevelopmentServices} from "./CloudAndDevelopmentServices"
+export {default as Projects} from "./Projects"
+export {default as Testimonials} from "./Testimonials"
+export {default as Clients} from "./Clients"
