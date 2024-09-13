@@ -17,8 +17,8 @@ const ServiceDetails = ({ data, componentType }) => {
                 <div className="services-feature-items-class">
                     {data.map(({ url, img, service, content }, index) => (
                         <div className="services-feature-item" key={index}>
-                            <div className="w-16 h-12 flex items-center justify-center">
-                                <img src={img} alt="logo" className="w-full object-cover hover:animate-bounce-once duration-500" />
+                            <div className="h-16 lg:h-20 flex items-center justify-center">
+                                <img src={img} alt="logo" className="w-full h-full object-cover hover:animate-bounce-once duration-500" />
                             </div>
 
                             {url ? <Link to={url} className="font-bold text-xl hover:text-orange-600">{service}</Link>

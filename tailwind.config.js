@@ -8,8 +8,8 @@ export default {
   theme: {
   	extend: {
   		animation: {
-  			'spin-slow': 'spin 4s linear infinite',
-  			'bounce-once': 'bounce 1s ease-in-out 1'
+  			'spin-slow': 'spin 5s linear infinite',
+  			'bounce-once': 'bounce 3s ease-in 1'
   		},
   		borderRadius: {
   			lg: 'var(--radius)',

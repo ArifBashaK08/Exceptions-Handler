@@ -7,6 +7,25 @@
     font-family: "SUSE", sans-serif;
 }
 
+::-webkit-scrollbar {
+    width: 2px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: orangered;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #b30000; 
+  }
+
 @layer utilities {
     .navbar-class {
         @apply sticky top-0 left-0 right-0 z-50 bg-white shadow-lg lg:px-16 py-2;
@@ -49,7 +68,7 @@
     /* Projects Screen */
 
     .projects-card-class {
-        @apply rounded-lg overflow-hidden w-full;
+        @apply rounded-lg flex flex-col items-center overflow-hidden w-full;
     }
 
     /* Testimonials Classes */
